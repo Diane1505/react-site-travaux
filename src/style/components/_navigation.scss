@@ -2,9 +2,10 @@
   position: absolute;
   top: 1rem;
   left: 1.4rem;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   line-height: 28px;
-  color: $color-4;
+  color: #2A2438;
+  font-family: poppins;
 
   &:before {
     content: '';
@@ -12,7 +13,7 @@
     height: 300px;
     width: 300px;
     border-radius: 50%;
-    background: $color-3;
+    background: #6983AA;
     top: -150px;
     left: -160px;
     z-index: -1;
@@ -32,13 +33,13 @@
     }
   }
   .nav-active {
-    color: $black;
+    color: #43D8C9;
   }
   ul:hover li:not(:hover) {
     opacity: .5;
   }
   ul:hover li:hover {
-    color: $black;
+    color: #43D8C9;
   }
 
   .nav-portfolio {

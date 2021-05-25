@@ -3,9 +3,10 @@
   bottom: 1rem;
   left: 50%;
   transform: translateX(-50%);
-  color: $color-4;
+  color: #4A3764;
   font-size: 1.7rem;
   perspective: 40px;
+  font-family: poppins;
 
   &:hover .sb-main {
     pointer-events: auto;
@@ -58,7 +59,7 @@
       transform: translateY(-1px);
 
       &:hover {
-        color: $black;
+        color: #604FDD;
         font-size: 1.8rem;
       }
     }

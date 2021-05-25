@@ -41,11 +41,7 @@ const Contact = () => {
         <ContactForm />
         <div className="contact-infos">
           <div className="address">
-            <div className="content">
-              <h4>adresse</h4>
-              <p>12 rue du Code</p>
-              <p>33000 Bordeaux</p>
-            </div>
+            
           </div>
           <div className="phone">
             <div className="content">
@@ -58,8 +54,7 @@ const Contact = () => {
                     alert("Téléphone copié !");
                   }}
                 >
-                  06 42 84 42 84
-                </p>
+06 95 67 99 62                </p>
               </CopyToClipboard>
             </div>
           </div>
@@ -74,14 +69,13 @@ const Contact = () => {
                     alert("Email copié !");
                   }}
                 >
-                  fsagency@gmail.com
-                </p>
+dianeblinnouveau@yahoo.fr                </p>
               </CopyToClipboard>
             </div>
           </div>
           <SocialNetwork />
           <div className="credits">
-            <p>fromScratch - 2020</p>
+            <p></p>
           </div>
         </div>
         <ButtonsBottom left={"/projet-4"} />

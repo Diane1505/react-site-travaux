@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 
 const DynamicText = () => {
-  let array = ["simple", "clear", "smart", "strong"];
+  let array = ["programmation", "développement", "création de contenus", "applications"];
   let wordIndex = 0;
   let letterIndex = 0;
 
@@ -46,10 +46,13 @@ const DynamicText = () => {
 
   return (
     <span className="dynamic-text">
-      <span className="simply">simply</span>
+      <span className="simply">Travaux</span>
       <span id="text-target"></span>
+
     </span>
+    
   );
 };
+
 
 export default DynamicText;

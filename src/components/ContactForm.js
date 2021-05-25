@@ -47,7 +47,7 @@ const ContactForm = () => {
         message,
       });
     } else {
-      formMess.innerHTML = "Merci de remplir correctement les champs requis *";
+      formMess.innerHTML = "Remplir correctement les champs requis *";
       formMess.style.background = "rgb(253, 87, 87)";
       formMess.style.opacity = "1";
 
@@ -90,13 +90,13 @@ const ContactForm = () => {
       .catch(
         (err) =>
           (formMess.innerHTML =
-            "Une erreur s'est produite, veuillez réessayer.")
+            "Veuillez réessayer.")
       );
   };
 
   return (
     <form className="contact-form">
-      <h2>contactez-nous</h2>
+      <h2>Me contacter</h2>
       <div className="form-content">
         <input
           type="text"

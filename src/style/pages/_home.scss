@@ -7,7 +7,8 @@
     content: '';
     height: 900px;
     width: 900px;
-    background: $color-3;
+    border: 10px #43D8C9 solid;
+
     border-radius: 50%;
     position: absolute;
     bottom: -480px;
@@ -49,8 +50,10 @@
       h1 {
         font-size: 3.7rem;
         position: relative;
-        font-family: $font-2;
-        color: $black;
+        color:#6983AA;
+        font-family: poppins;
+
+
 
         @media screen and (max-width: 650px){
           font-size: 2rem;
@@ -65,9 +68,9 @@
           height: 225px;
           width: 225px;
           border-radius: 50%;
-          border: 1px $color-2 solid;
-          top: -40px;
-          left: -180px;
+          border: 3px #604FDD solid;
+          top: -80px;
+          left: -200px;
           z-index: -1;
           animation: h1Anim 1.5s forwards ease;
           transform: scale(0);

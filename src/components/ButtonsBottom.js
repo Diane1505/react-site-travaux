@@ -10,7 +10,7 @@ const ButtonsBottom = (props) => {
             <span>&#10092;</span>
           </NavLink>
         )}
-        <p className="center">scroll</p>
+        <p className="center">suivant</p>
         {props.right && (
           <NavLink to={props.right} className="right hover">
             <span>&#10093;</span>

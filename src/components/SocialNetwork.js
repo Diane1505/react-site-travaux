@@ -21,14 +21,11 @@ const SocialNetwork = () => {
   return (
     <div className="social-network">
       <ul className="content">
-        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="hover" onMouseOver={anim} >
-          <li><i className="fab fa-facebook-f"></i></li>
+        <a href="" target="_blank" rel="noopener noreferrer" className="hover" onMouseOver={anim} >
+          <li><i className="fab fa-linkedin"></i></li>
         </a>
-        <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" className="hover" onMouseOver={anim} >
-          <li><i className="fab fa-twitter"></i></li>
-        </a>
-        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="hover" onMouseOver={anim} >
-          <li><i className="fab fa-instagram"></i></li>
+        <a href="https://github.com/Diane1505" target="_blank" rel="noopener noreferrer" className="hover" onMouseOver={anim} >
+          <li><i className="fab fa-github"></i></li>
         </a>
       </ul>
     </div>

@@ -55,17 +55,21 @@ main {
   position: relative;
 }
 .button {
-  background: $color-3;
+  background:   #604FDD;
   height: 55px;
   width: 126px;
-  border-radius: 50px;
+  border-radius: 5px;
   margin-top: 20px;
   font-size: 1.2rem;
   cursor: pointer;
   transition: 0.2s;
+  color: white;
+
 
   &:hover {
     letter-spacing: 1px;
-    color: $color-2;
+    background: #44D5C9;
+    color: white;
+
   }
 }

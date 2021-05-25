@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+
 .dynamic-text {
   position: relative;
   display: flex;
+  font-family: poppins;
+
 
   .simply {
-    color: $color-4;
+    color: #43D8C9;
+    font-family: poppins;
   }
 
   #text-target {
@@ -13,23 +19,35 @@
     animation: color 30s alternate infinite;
     perspective: 200px;
     transform: translateX(26px);
+    font-family: poppins;
+
+
   }
   .word {
     position: absolute;
+    font-family: poppins;
   }
   @keyframes color {
     0% {
-      color: $color-2;
+      color: #604FDD;
+      font-family: poppins;
+
     }
     50% {
-      color: $color-4;
+      color: #604FDD;
+      font-family: poppins;
+
     }
     100% {
-      color: $color-2;
+      color: #604FDD;
+      font-family: poppins;
+
     }
   }
   .letter {
     transform: translateZ(200px);
+    font-family: poppins;
+
   }
   @keyframes anim {
     25% {
