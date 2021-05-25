@@ -47,6 +47,11 @@
     display: flex;
     // padding-right: 6rem;
     transition: .5s;
+    &:hover {
+      color: #43D8C9;
+    }
+
+
 
     &:hover .nav-projects,
     .nav-projects:hover {

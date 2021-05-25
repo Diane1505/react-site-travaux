@@ -8,8 +8,9 @@
 
 
   .simply {
-    color: #43D8C9;
+    color: white;
     font-family: poppins;
+    opacity: 0%;
   }
 
   #text-target {
@@ -18,7 +19,7 @@
     text-align: left;
     animation: color 30s alternate infinite;
     perspective: 200px;
-    transform: translateX(26px);
+    transform: translateX(-300px);
     font-family: poppins;
 
 
